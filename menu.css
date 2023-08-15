@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #E6C068;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('/flatten.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+    position: relative; 
+}
+
+.header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: black;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; 
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #E6C068;
+    font-weight: bold;
+    font-family: 'Lobster', cursive; 
+}
+
+.logo {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    margin: 20px; 
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu-section h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #E6C068;
+}
+
+.menu-item {
+    border-bottom: 1px solid #E6C068;
+    padding: 15px 0;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #E6C068;
+}
+
+.menu-item p {
+    margin: 10px 0;
+}
+
+.menu-item .price {
+    float: right;
+    color: #E6C068;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    color: #E6C068;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .icon {
+    margin-right: 5px;
+}
+
+
+
+
+
